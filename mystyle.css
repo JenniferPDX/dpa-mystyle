@@ -34,7 +34,26 @@ p {
   text-align: center;
 }
 
+p2 {
+	text-align: left;
+}
+
 p#intro {
   text-align: center;
   margin: 1em 0;
+}
+
+#annotation {
+    border: 3px solid rgb(102, 122, 102);
+    margin-top: 0px;
+    padding-left: 6px;
+    padding-top: 0px;
+    border-radius: 4px;
+    position: absolute;
+    min-height: 1.2em;
+    width: 400px;
+    top: 140px;
+    right: 20px;
+    background-color: rgb(102, 122, 102);
+    color: white;
 }
