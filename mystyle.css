@@ -34,16 +34,16 @@ p {
   text-align: center;
 }
 
-p2 {
+p2 { /* paragraph styling for mouse-over functionality */
 	text-align: left;
 }
 
-p#intro {
+p#intro { /* this may be obsolete */
   text-align: center;
   margin: 1em 0;
 }
 
-#annotation {
+#annotation { /* for the mouse-over annotation functionality in executeWheel */
     border: 3px solid rgb(102, 122, 102);
     margin-top: 0px;
     padding-left: 6px;
