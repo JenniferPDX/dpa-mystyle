@@ -59,6 +59,52 @@ p#intro { /* this may be obsolete */
     color: white;
 }
 
+#legend1{
+    border: 3px solid rgb(255, 153, 153);
+    margin-top: 0px;
+    padding-left: 6px;
+    padding-top: 0px;
+    border-radius: 4px;
+    position: absolute;
+    min-height: 1.4em;
+    width: 160px;
+    top: 200px;
+    right: 20px;
+    background-color: rgb(255, 153, 153);
+    color: white;
+}
+
+#legend2{
+    border: 3px solid rgb(255, 76, 76);
+    margin-top: 0px;
+    padding-left: 6px;
+    padding-top: 0px;
+    border-radius: 4px;
+    position: absolute;
+    min-height: 1.4em;
+    width: 160px;
+    top: 240px;
+    right: 20px;
+    background-color: rgb(255, 76, 76);
+    color: white;
+}
+
+#legend3{
+    border: 3px solid rgb(102, 0, 0);
+    margin-top: 0px;
+    padding-left: 6px;
+    padding-top: 0px;
+    border-radius: 4px;
+    position: absolute;
+    min-height: 1.4em;
+    width: 160px;
+    top: 280px;
+    right: 20px;
+    background-color: rgb(102, 0, 0);
+    color: white;
+}
+
+
 ul { /* for the menu */
     list-style-type: none;
     margin: 0;
