@@ -1,3 +1,34 @@
+/* Bootstrap overrides to reduce the height of the nav bar */
+.navbar-xs { min-height:42px; height: 42px; }
+.navbar-xs .navbar-brand{ padding: 0px 12px;font-size: 16px;line-height: 42px; }
+.navbar-xs .navbar-nav > li > a {  padding-top: 10px; padding-bottom: 0px; line-height: 42px; }
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:10px !important; padding-bottom:0 !important;
+    height: 42px;
+}
+.navbar {
+margin-bottom: 5px;
+min-height:42px !important;
+}
+
+.radio,
+.checkbox {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+/* End of Bootstrap overrides */
+
+.radbut { /* for radio buttons. No longer needed, given usage of grids */
+} 
+
+.PSU-green {
+
+}
+
+.container-override {
+    margin-top: 0;
+}
+
 path {
   stroke: #000;
   stroke-width: .5;
@@ -17,7 +48,7 @@ text {
 }
 
 body {
-  width: 1040px;
+  /* width: 1040px; */
   margin: 0 auto;
   overflow: hidden;
   /* font-family: "Helvetica Neue", Helvetica; */
@@ -54,21 +85,22 @@ body {
   bottom: 40px;
 }
 
-form { /* for flare */
-  position: absolute;
+ form { /* for flare */
+/*  position: absolute;
   font-family: "Arial", Helvetica, sans-serif;
   font-size: 12px;
   left: 10px;
   top: 20px;
+ */
 }
 
 #altView { /* for button to alternate between wheel and flare views of material */
-    position: absolute;
+/*     position: absolute;
     font-family: "Arial", Helvetica, sans-serif;
     font-size: 12px;
     left: 42px;
     top: 12px;
-}
+ */}
 
 h1 {
   text-align: center;
@@ -82,6 +114,7 @@ h2 {
   margin: .5em 0;
   font-size: 22px;
 }
+
 h3 {
   text-align: center;
   line-height: 50%;
@@ -99,7 +132,7 @@ p2 { /* paragraph styling for mouse-over functionality */
 
 p#intro { /* this may be obsolete */
   text-align: center;
-  margin: 1em 0;
+  /* margin: 1em 0; */
 }
 
 #annotation { /* for the mouse-over annotation functionality in executeWheel */
