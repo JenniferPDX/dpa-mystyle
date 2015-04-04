@@ -18,6 +18,7 @@ min-height:42px !important;
 }
 /* End of Bootstrap overrides */
 
+
 .radbut { /* for radio buttons. No longer needed, given usage of grids */
 } 
 
@@ -27,6 +28,14 @@ min-height:42px !important;
 
 .container-override {
     margin-top: 0;
+}
+
+.centeredImage
+{
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
 }
 
 path {
@@ -50,7 +59,7 @@ text {
 body {
   /* width: 1040px; */
   margin: 0 auto;
-  overflow: hidden;
+  overflow: scroll;
   /* font-family: "Helvetica Neue", Helvetica; */
   font-family: "Arial", Helvetica, sans-serif;
 }
